@@ -48,6 +48,7 @@ class Random extends React.Component {
   render() {
     return (
       <div>
+        <p>Random Color Picker sets the screen’s background to a random color. Clicking a button will refresh to a new, random color.</p>
         <h1 className={this.isLight() ? 'white' : 'black'}>
 				Your color is {this.formatColor(this.state.color)}.
         </h1>
